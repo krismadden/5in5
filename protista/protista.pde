@@ -27,10 +27,10 @@ void setup() {
 openTwitterStream();
 
     ConfigurationBuilder cb2 = new ConfigurationBuilder();
-    cb2.setOAuthConsumerKey("lWiYzJUpWzWSCiUH20pIVUqiM");
-    cb2.setOAuthConsumerSecret("W6734Mebzbby7uBPIwtO7VvI7I6bF7qWCRuIrUYpGPqPJ0625b");
-    cb2.setOAuthAccessToken("773096503250448385-1oPKOinCwsqV2Mh08vvWoMn1CAplhE5");
-    cb2.setOAuthAccessTokenSecret("xh2Jpu5HQcu28tLXvZbhBJgRUQW1K2XQKqtOgkFRa21Gh");
+    cb2.setOAuthConsumerKey("insert here");
+    cb2.setOAuthConsumerSecret("insert here");
+    cb2.setOAuthAccessToken("insert here");
+    cb2.setOAuthAccessTokenSecret("insert here");
 
     TwitterFactory tf = new TwitterFactory(cb2.build());
 
